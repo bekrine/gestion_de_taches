@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+                                         Application de Gestion de Tâches
+  Exécution du Projet
+    Pour exécuter le projet de l'application de gestion de tâches, suivez ces étapes :
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+1:Assurez-vous d'avoir Node.js et npm (le gestionnaire de paquets Node.js) installés sur votre ordinateur. Si ce n'est pas le cas, vous pouvez les télécharger depuis le site officiel : Node.js.
 
-## Available Scripts
+2:Téléchargez ou clonez le projet depuis le référentiel GitHub.
 
-In the project directory, you can run:
+3:Ouvrez votre terminal/commande dans le répertoire du projet.
 
-### `npm start`
+4:Installez les dépendances en exécutant la commande suivante : npm install
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+5:Une fois les dépendances installées, démarrez l'application en exécutant la commande : npm start
+6:L'application devrait maintenant être accessible à l'adresse suivante dans votre navigateur : http://localhost:3000/.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+   Utilisation de l'Application
+   
+L'application de gestion de tâches vous permet de gérer votre liste de tâches de manière simple et efficace. Voici comment l'utiliser :
 
-### `npm test`
+#Ajouter une Tâche
+Cliquez sur le bouton "Ajouter une Tâche" en haut de la page.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1:Une fenêtre s'ouvrira, vous permettant de saisir le titre de la nouvelle tâche. Vous pouvez également saisir une discription sur cette tâche.
 
-### `npm run build`
+2:Cliquez sur le bouton "Enregistrer" pour ajouter la tâche à votre liste.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#Afficher les Tâches
+Sur la page principale, vous verrez la liste de toutes vos tâches trie par les taches non terminer puis les taches terminées . Vous pouvez les trier en cochant ou décochant la case "All  DONE  NOTDONE". Cela vous permet de filtrer la liste pour afficher uniquement les tâches terminées ou non terminées ou tous les tâches , selon vos besoins ,vous pouvez aussi rechercher une tâche avec le titre de la tache.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#Modifier une Tâche
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1:Cliquez sur l'icon "Modifier" à côté de la tâche que vous souhaitez modifier.
 
-### `npm run eject`
+2:Une fenêtre  s'ouvrira, vous permettant de mettre à jour le titre de la tâche et son discription .
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3:Cliquez sur le bouton "Modifier la Tâche" pour appliquer les modifications.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#Supprimer une Tâche
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1;Cliquez sur l'icon "Supprimer" à côté de la tâche que vous souhaitez supprimer.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+#terminées ou non terminées
+1:clic sur radio button pour indiquer que la tache termine ou non 
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
